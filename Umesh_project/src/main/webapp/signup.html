@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="signup.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+   <title>Responsive Regisration Form </title>
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="Signup1.jsp">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required name="name">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Username</label>
+                            <input type="text" placeholder="Enter the userName" required name="uname">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter The password" required name="pass">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required name="email">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required name="mobile">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required name="gender">
+                                <option disabled selected >Select gender</option>
+                                <option value="m">Male</option>
+                                <option value="f">Female</option>
+                                <option value="o">Others</option>
+                            </select>
+                        </div>
+
+                         
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title"></span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Date Of Birth</label>
+                            <input type="date" placeholder="Enter The Date of Birth" name="date1"  >
+                        </div>
+
+                         
+
+                        <div class="input-field">
+                            <label>Class</label>
+                            <select required name="class2">
+                                <option disabled selected>Select Class</option>
+                                <option>BCA</option>
+                                <option>BCS</option>
+                                <option>BSC</option>
+                            </select>
+                             
+                        </div>
+                        
+                        <div class="input-field" >
+                            <label>Year Of Class</label>
+                              <select required name="class1">
+                                <option disabled selected>Select Class</option>
+                                <option>BCA-I</option>
+                                <option>BCA-II</option>
+                                <option>BCA-III</option>
+                                <option>BCS-I</option>
+                                <option>BCS-II</option>
+                                <option>BCS-III</option>
+                                <option>BSC-I</option>
+                                  <option>BSC-II</option>
+                                    <option>BSC-III</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Department</label>
+                            <input type="text" placeholder="Enter The Department" required name="dep">
+                        </div>
+
+                        <div class="input-field">
+                            <label>HSC</label>
+                            <input type="number" placeholder="Enter your HSC CGPA" required name="hsc">
+                        </div>
+
+                        <div class="input-field">
+                            <label>SSC</label>
+                            <input type="number" placeholder="Enter The SSC CGPA" required name="ssc">
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title" >Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <input type="text" placeholder="Permanent or Temporary" required name="addr">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality" required name="nan">
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state" required name="state">
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district" required name="dis">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required name="bno">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ward Number</label>
+                            <input type="number" placeholder="Enter ward number" required name="wno">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title"></span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Father Name</label>
+                            <input type="text" placeholder="Enter father name" required name="fname">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother Name</label>
+                            <input type="text" placeholder="Enter mother name" required name="mname">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Father Mobile</label>
+                            <input type="number" placeholder="Enter The Mobile" required name="fmobile">
+                        </div>
+
+                        <div class="input-field">
+                            <label>spouse Name</label>
+                            <input type="text" placeholder="Enter the spouse Name" name="photo1" size="50">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Blood Group</label>
+                            <input type="text" placeholder="Enter the Blood Group" name="resume" size="50">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Friend Name</label>
+                            <input type="text" placeholder="Enter The Friend name" required name="friendname">
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
